@@ -1,3 +1,4 @@
+
 export const Navbar = ({ login, handlerLogout }) => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -16,7 +17,20 @@ export const Navbar = ({ login, handlerLogout }) => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavLogout">
+            <form className="d-flex">
+              <input 
+                className="form-control me-2" 
+                type="search" 
+                placeholder="Search" 
+                aria-label="Search" 
+              />
+              <button 
+                className="btn btn-outline-success" 
+                type="submit">
+                Search
+              </button>
+            </form>
             <span className="nav-item nav-link text-primary mx-3">
                 { login.user?.username }
             </span>
