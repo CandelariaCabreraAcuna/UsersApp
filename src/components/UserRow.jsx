@@ -20,7 +20,7 @@ export const UserRow = ({
       <td>
         <button
           type="button"
-          className="btn btn-secondary btn-sm"
+          className="btn-table"
           onClick={() =>
             handlerUserSelectedForm({
               id,
@@ -51,7 +51,7 @@ export const UserRow = ({
       <td>
         <button
           type="button"
-          className="btn btn-danger btn-sm"
+          className="btn-table"
           onClick={() => handlerRemoveUser(id)}
         >
           <svg

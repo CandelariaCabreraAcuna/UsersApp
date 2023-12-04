@@ -1,16 +1,58 @@
 
+body{
+    background-color: #edecf3;
+}
 .modal{
     color: rgb(76, 73, 164);
 }
 .modal-content .modal-body button{
-background-color: blueviolet;
+background-color: #7064b4;
 border: none;
 }
-.row .col button{
-    background-color: blueviolet;
+
+
+
+
+.card{
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-table{
+    background-color: #dcf4f6;
+    border-radius: 6px;
+    color: #42bcdc;
     border: none;
 }
+.btn-table:hover{
+    background-color: #b2f5fd;
 
+}
+
+.content-modal{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-purple{
+    background-color: #7064b4;
+    border-radius: 6px;
+    color: white;
+    width: fit-content;
+    height: 2.2rem;
+    border: none;
+}
+.btn-purple:hover{
+    background-color: #4c4286;
+}
 .abrir-modal {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
@@ -52,3 +94,5 @@ border: none;
         opacity: 1
     }
 }
+
+
